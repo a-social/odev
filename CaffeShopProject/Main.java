@@ -12,7 +12,7 @@ public class Main {
 
 	public static void main(String[] args) throws NumberFormatException, RemoteException {
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer());
+		customerManager.save(new Customer(1,"Salim Şahan","Damar",1111,"11111111111"));
 		
 
 	}
